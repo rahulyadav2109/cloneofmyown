@@ -1,0 +1,10 @@
+# Cacheable files
+
+wp-content/debug.log
+wp-content/uploads/*
+!wp-content/uploads/.htaccess
+
+node_modules/*
+
+.idea/*
+.sass-cache/*

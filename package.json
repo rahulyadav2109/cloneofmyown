@@ -1,0 +1,24 @@
+{
+  "name": "kajakinew",
+  "version": "1.0.0",
+  "description": "Potencjalnie flagowy, testowy projekt zoptymalizowany pod WP Support - genesis, standardowy cache i zabezpieczenia, \r Commity wyłącznie do develop -> wrzut na master wyłącznie merge'ami",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.inspirelabs.pl:inspirelabs/kajakinew.git"
+  },
+  "author": "",
+  "license": "ISC"
+}

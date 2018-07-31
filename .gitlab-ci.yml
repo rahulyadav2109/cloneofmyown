@@ -1,0 +1,20 @@
+#stages:
+#  - deploy
+#
+#cache:
+#  untracked: true
+#
+#variables:
+#  GIT_STRATEGY: fetch
+#
+#deploy to stage:
+#  stage: deploy
+#  environment:
+#    name: stage
+#    url: http://NAZWA_PROJEKTU.gitlab.testbox.pro/
+#  script:
+#    - mkdir -p /var/www/stage/${CI_PROJECT_NAME}
+#    - rsync -a --exclude='.git' ./ /var/www/stage/${CI_PROJECT_NAME}
+#    - chown www-data -R /var/www/stage/${CI_PROJECT_NAME}
+#  only:
+#    - master
