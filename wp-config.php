@@ -31,7 +31,7 @@ define('NONCE_SALT',       'kv-2}yK^7OAa:yQz`W2dKh!(B4+Z70U/@<AjFw?nb|NvhE}#7k?t
 /**#@-*/
 
 /* Auto update i blokady */
-define('DISALLOW_FILE_EDIT', true );
+define('DISALLOW_FILE_EDIT', false );
 
 // DEBUG LOGI
 define('WP_DEBUG', true);

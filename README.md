@@ -1,4 +1,4 @@
-## Init projektu - nazwa
+## Init projektu - cloneofmyown
 
 treść
 
